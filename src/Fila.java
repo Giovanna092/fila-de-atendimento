@@ -17,5 +17,8 @@ public class Fila {
         for (int i = 0; i < nomes.length; i++) {
             System.out.println(nomes[i]+ " - esta na posicao: "+ (i+1));
         }
+
+
+        leia.close();
     }
 }
